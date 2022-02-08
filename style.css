@@ -1,0 +1,54 @@
+/* Start Variables */
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+/* End Variables */
+
+/* Start Global Rules */
+
+body {
+    background-color: var(--Light-gray);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* End Global Rules */
+
+/* Start QR Code */
+
+.container {
+    padding: 10px 5px;
+    background-color: var(--White);
+    width: 270px;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.container img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.container .content {
+    padding: 0 20px;
+}
+
+.container h1 {
+    font-size: 20px;
+    color: var(--Dark-blue);
+}
+
+.container p {
+    font-size: 15px;
+    color: var(--Grayish-blue);
+}
+
+/* End QR Code */
