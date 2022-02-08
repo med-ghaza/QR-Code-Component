@@ -21,7 +21,7 @@ body {
 /* Start QR Code */
 
 .container {
-    padding: 10px 5px;
+    padding: 15px 10px;
     background-color: var(--White);
     width: 310px;
     border-radius: 20px;
